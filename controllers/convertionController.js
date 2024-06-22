@@ -6,5 +6,8 @@ module.exports = {
             result = (9/5) * inputTemp + 32;
             return res.send({success: true, result: result});
         }
+    },
+    home: (req,res)=> {
+        res.send("working");
     }
 }
