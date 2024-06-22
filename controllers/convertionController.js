@@ -8,6 +8,6 @@ module.exports = {
         }
     },
     home: (req,res)=> {
-        res.send("working");
+        res.send("working")
     }
 }
